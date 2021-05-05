@@ -53,7 +53,7 @@ class Igra:
             else:
                 return NAPACNA_CRKA
 
-with open('besede.txt', encoding="utf8") as f:
+with open('C:/code/python/git/vislice/besede.txt', encoding="utf8") as f:
     bazen_besed = f.read().split()
 
 import random
