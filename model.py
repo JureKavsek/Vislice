@@ -15,7 +15,7 @@ class Vislice:
         self.max_id += 1
         return self.max_id
 
-    def nova_igra(self,):
+    def nova_igra(self):
         nov_id = self.prost_id_igre()
         sveza_igra = nova_igra(bazen_besed)
 
