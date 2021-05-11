@@ -1,12 +1,14 @@
 import bottle
 import model
+from bottle import template
 
 vislice = model.Vislice()
 
+bottle.TEMPLATE_PATH.insert(0,'C:/code/python/git/vislice/views/')
 
 @bottle.get("/")
 def index():
-    return bottle.template("index.tpl")
+    return bottle.template('index.tpl')
 
 
 @bottle.post('/igra/')

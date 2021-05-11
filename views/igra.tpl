@@ -15,7 +15,7 @@
   <h4>{{ igra.pravilni_del_gesla() }}</h4>
 
   <h3>Nepravilne crke</h3>
-  <h4>{{ igra.napacnecrke() }}</h4>
+  <h4>{{ igra.napacne_crke() }}</h4>
 
   <h3>Stopnja obešenosti</h3>
   <h4>{{ igra.stevilo_napak() }}</h4>
