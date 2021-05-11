@@ -1,10 +1,5 @@
+%rebase('base.tpl')
 %from model import ZMAGA, PORAZ
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-</head>
-
 <body>
 
   <h1>Vislice</h1>
@@ -44,7 +39,3 @@
       <input type='submit'>
   </form>
 %end
-
-</body>
-
-</html>
